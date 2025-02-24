@@ -1,0 +1,156 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #333;
+  padding: 2rem;
+}
+
+.company-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666666;
+  font-size: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #FF5C5C;
+  box-shadow: 0 0 0 2px rgba(255, 92, 92, 0.1);
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+}
+
+.forgot-password-button {
+  display: block;
+  text-align: left;
+  color: #FF5C5C;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.forgot-password-button:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #FF5C5C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #ff4242;
+}
+
+.create-account {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.create-account p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.create-account-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: transparent;
+  color: #FF5C5C;
+  border: 1px solid #FF5C5C;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.create-account-button:hover {
+  background-color: rgba(255, 92, 92, 0.1);
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #d32f2f;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+} 

@@ -1,0 +1,60 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.company-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.icons-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon-item:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 2px solid #FF5C5C;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s;
+}
+
+.icon-item:hover .icon-circle {
+  background-color: rgba(255, 92, 92, 0.1);
+}
+
+.icon-label {
+  color: #666666;
+  font-size: 1.1rem;
+  font-weight: 500;
+} 
