@@ -19,7 +19,7 @@ const Login = () => {
     setIsLoading(true);
 
     console.log('Login attempt started for username:', credentials.username);
-    console.log('Making request to:', 'http://13.126.51.117:5000/login');
+    console.log('Making request to:', 'https://e8hrtu0c1c.execute-api.ap-south-1.amazonaws.com/api/login');
 
     try {
       console.log('Request headers:', {
@@ -28,7 +28,7 @@ const Login = () => {
         'Access-Control-Allow-Origin': '*'
       });
 
-      const response = await fetch('http://13.126.51.117:5000/login', {
+      const response = await fetch('https://e8hrtu0c1c.execute-api.ap-south-1.amazonaws.com/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
