@@ -60,7 +60,7 @@ const Register = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://13.126.51.117:5000/register', {
+      const response = await fetch('https://e8hrtu0c1c.execute-api.ap-south-1.amazonaws.com/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
