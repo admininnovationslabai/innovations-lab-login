@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
-import logo from '../assets/innovations-lab-logo.png';
 
 
 const Login = () => {
@@ -92,7 +91,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="company-header">
-        <img src={logo} alt="Innovations Lab Logo" className="logo" />
+        <img src="/images/innovations-lab-logo.png" alt="Innovations Lab Logo" className="logo" />
       </div>
       <div className="login-box">
         <h2>Log in</h2>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Register.css';
-import logo from '../assets/innovations-lab-logo.png';
 
 const Register = () => {
   const navigate = useNavigate();
@@ -109,7 +108,7 @@ const Register = () => {
   return (
     <div className="register-container">
       <div className="company-header">
-        <img src={logo} alt="Innovations Lab Logo" className="logo" />
+        <img src="/images/innovations-lab-logo.png" alt="Innovations Lab Logo" className="logo" />
       </div>
       <div className="register-box">
         <h2>Create Account</h2>
